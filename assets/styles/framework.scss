@@ -197,7 +197,7 @@ a:focus {
 p > a,
 span > a,
 .box a {
-    &:not(.button):not(.no-link-decoration) {
+    &:not(.button):.no-link-decoration {
         position: relative;
         text-decoration: none;
         @media (prefers-reduced-motion: no-preference) {
